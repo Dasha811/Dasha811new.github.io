@@ -1,0 +1,56 @@
+@import url(header.css);
+@import url(section-headline.css);
+@import url(section-two-paragraphs.css);
+@import url(section-our-culture.css);
+@import url(footer.css);
+
+body {
+  background-color: #f9f9f9;
+  font: normal 16px Roboto, sans-serif, Arial;
+}
+
+#app-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.app-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.app-logo {
+  width: 64px;
+  height: 64px;
+  object-fit: contain;
+}
+  
+.app-logo--small {
+  width: 20px;
+  height: 20px;
+  margin-right: 8px;
+}
+
+.app-title {
+  font-size: 3.25rem;
+  line-height: 3.20rem;
+  text-align: center;
+}
+
+.app-subtitle {
+  font-size: 1.50rem;
+  line-height: 1.625rem;
+  font-weight: 300;
+  text-align: center;
+}
+
+.app-section__button {
+  background-color: #2e71f2;
+  border: none;
+  color: white;
+  cursor: pointer;
+  outline: none;
+}

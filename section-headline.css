@@ -1,0 +1,15 @@
+.app-section--image-peak {
+    background: linear-gradient(to top, rgba(65, 65, 65, .5), rgba(65, 65, 65, .5)),
+                url(../assets/images/your-image-here.jpg)
+                no-repeat center/cover;
+  
+    height: 800px;
+    max-width: 100%;
+    color: white;
+  }
+
+  @media only screen and (max-width: 768px) {
+    .app-section--image-peak {
+        height: 648px;
+    }
+  }

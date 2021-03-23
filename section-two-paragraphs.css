@@ -1,0 +1,28 @@
+.app-section__article {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 90px;
+    margin: 0 140px;
+}
+
+.app-section__button--read-more {
+    border-radius: 26px;
+    font-size: 12px;
+    height: 46px;
+    letter-spacing: 1.2px;
+    margin: 60px auto 108px;
+    text-transform: uppercase;
+    width: 162px;
+}
+
+@media only screen and (max-width: 768px) {
+    .app-section__article {
+        grid-template-columns: 1fr;
+        gap: 0px 0px;
+        margin: 0 16px;
+    }
+
+    .app-section__button--read-more {
+        margin: 24px auto 48px;
+    }
+}
